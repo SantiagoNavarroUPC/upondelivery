@@ -1,0 +1,6 @@
+FROM snavarroc/xampp-server:latest
+
+
+EXPOSE 8082
+
+CMD ["httpd-foreground"]
